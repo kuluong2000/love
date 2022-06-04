@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.love {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("./image/bg.webp") no-repeat center / cover;
+}
+.btn {
+  position: absolute;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.love-success {
+  right: 20%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
